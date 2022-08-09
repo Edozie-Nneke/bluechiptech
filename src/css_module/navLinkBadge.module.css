@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.number {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  color: #898aa6;
+  background-color: #cfd2cf;
+}
+
+.number_visited {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  color: #ffffff;
+  background-color: #3ccf4e;
+}
+
+.number_active {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: medium;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+  color: #ffffff;
+  background-color: #ffc23c;
+}
+
+.linkWrapper {
+}

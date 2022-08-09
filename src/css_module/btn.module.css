@@ -1,14 +1,16 @@
 .container {
-  background-color: #ffc23c;
-  width: 120px;
-  height: 42px;
-  border: none;
-  border-radius: 5px;
+  /* background-color: #ffc23c; */
+  background-color: #ffffff;
+  /* border: none; */
+  border: 1px solid #ffc23c;
   /* color: #ffffff; */
+  color: #ffc23c;
+  padding: 10px 30px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
 }
