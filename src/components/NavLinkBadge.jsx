@@ -3,7 +3,7 @@ import CheckIcon from '@mui/icons-material/Check';
 import { useState } from 'react';
 
 export default function NavLinkBadge() {
-  const [isVisted, setIsVisted] = useState(true);
+  const [isVisted, setIsVisted] = useState(false);
   const [isActive, setIsActive] = useState(false);
 
   return (
